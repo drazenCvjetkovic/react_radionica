@@ -1,13 +1,32 @@
 import React from 'react';
 import './App.css';
-import {MyForm} from './MyForm';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from'./Home';
+import Header from "./Header";
+import ParentFormComponent from "./Formik/ParentFormComponent";
+import {List as MyList} from './Formik/List'
+import PresentationalComponent from "./components/MyForm2/PresentationalComponent";
+
 
 const App: React.FC = () => {
-  return (
-    <div style={{ textAlign: 'center'}}><MyForm onSubmit={({firstName,lastName,email}) => {
-      console.log(firstName, lastName ,email)
-    }}/></div>
-  );
+    return (
+        <Router>
+            <div>
+                <Header/>
+            </div>
+            <div>
+                <Switch>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/formik" component={ParentFormComponent}/>
+                    <Route path="/formik2" component = {PresentationalComponent}/>
+                    <Route path="/list" component = {MyList}/>
+
+                </Switch>
+            </div>
+        </Router>
+    );
+
+
 };
 
 export default App;
