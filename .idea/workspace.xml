@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="823db18f-6a83-4f87-88e5-f9387c58bc4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formik/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formik/MyCustomField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formik/ParentFormComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyForm3.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CheckBoxInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EmailInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm/MyForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm/MyFormStyle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm2/MyInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm2/SubmitButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyForm4.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PasswordInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SelectInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TestForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyCustomField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my_form_3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyForm2.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParentFormComponent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidateForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidateForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextInput.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,26 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60756123">
+    <splitter split-orientation="horizontal" split-proportion="0.4901704">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+                <state relative-caret-position="826">
+                  <caret line="49" column="83" lean-forward="true" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
                   <folding>
                     <element signature="e#70#109#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/CheckBoxInput.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -68,27 +33,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
                   <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="757" column="38" selection-start-line="757" selection-start-column="38" selection-end-line="757" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -108,8 +52,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TextInput.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="357">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -129,8 +73,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TextField/TextField.d.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="40" column="21" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="21" />
+                <state relative-caret-position="478">
+                  <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +86,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="41" column="24" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="24" />
+                <state relative-caret-position="194">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -206,9 +150,9 @@
         <option value="$PROJECT_DIR$/src/components/SelectInput.tsx" />
         <option value="$PROJECT_DIR$/src/components/CheckBoxInput.tsx" />
         <option value="$PROJECT_DIR$/src/components/TestForm.tsx" />
+        <option value="$PROJECT_DIR$/src/components/MyForm2/SubmitButton.tsx" />
         <option value="$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx" />
         <option value="$PROJECT_DIR$/src/components/TextInput.tsx" />
-        <option value="$PROJECT_DIR$/src/components/MyForm2/SubmitButton.tsx" />
         <option value="$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx" />
       </list>
     </option>
@@ -310,12 +254,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563344668107</updated>
       <workItem from="1563344669425" duration="7364000" />
-      <workItem from="1563433685579" duration="137498000" />
+      <workItem from="1563433685579" duration="138962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144862000" />
+    <option name="totallyTimeSpent" value="146326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-199" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -336,8 +280,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.36237624" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.36237624" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946752" visible="true" weight="0.1940594" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -709,30 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TextField/TextField.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TestForm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TextInput.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MyForm/MyForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -758,10 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/MyForm2/SubmitButton.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -775,10 +695,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyForm2/SubmitButton.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/TestForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TextField/TextField.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyForm2/MyForm2.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TextInput.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -787,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MyForm2/PresentationalComponent.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        <state relative-caret-position="826">
+          <caret line="49" column="83" lean-forward="true" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
           <folding>
             <element signature="e#70#109#0" expanded="true" />
           </folding>

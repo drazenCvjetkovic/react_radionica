@@ -44,7 +44,6 @@ export default class PresentationalComponent extends React.Component<{}> {
                                 <TextInput
                                     name={"firstName"}
                                     placeholder={"Firstname"}
-                                    outlined={"true"}
                                 />
                             </div>
 

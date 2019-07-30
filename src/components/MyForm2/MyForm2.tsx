@@ -12,7 +12,6 @@ export interface IInputField {
     label?: string;
     checked?: boolean;
     options?: Array<object>;
-    outlined?:string
 }
 
 
