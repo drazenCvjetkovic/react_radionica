@@ -1,10 +1,6 @@
 import * as React from 'react';
 import {Form, Formik} from "formik";
 
-// formikexport interface IValues {
-//     firstName: string;
-// }
-
 export interface IInputField {
     name: string;
     value?: string;
@@ -12,12 +8,12 @@ export interface IInputField {
     label?: string;
     checked?: boolean;
     options?: Array<object>;
+    variant?: string;
 }
-
 
 export interface IProps {
     onSubmit: (values: any) => void;
-    initialValues:any
+    initialValues: any
     children: any;
     validationSchema?: any;
 }

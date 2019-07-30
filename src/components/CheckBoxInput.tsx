@@ -2,9 +2,15 @@ import * as React from "react";
 import {Field, FieldProps} from "formik";
 import {Switch} from "@material-ui/core";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import {IInputField} from "./MyForm2/MyForm2";
+import {IInputField} from "./MyForm2/MyFormInterfaces";
 
-export const CheckBoxInput: React.FC<IInputField> = (props) => {
+
+export interface  ICheckBoxInput extends IInputField{
+    checked?: boolean;
+}
+
+
+export const CheckBoxInput: React.FC<ICheckBoxInput> = (props) => {
     return (
         <div>
             <Field

@@ -1,8 +1,10 @@
 import * as React from "react";
 import {ErrorMessage, Field, FieldProps} from "formik";
 import {FormControl} from "@material-ui/core";
-import {IInputField} from './MyForm2/MyForm2'
 import NativeSelect from "@material-ui/core/NativeSelect";
+import {IInputField} from "./MyForm2/MyFormInterfaces";
+
+
 
 interface IValue {
     label:string,

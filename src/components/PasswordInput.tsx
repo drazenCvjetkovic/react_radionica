@@ -1,7 +1,7 @@
 import * as React from "react";
 import {ErrorMessage, Field, FieldProps} from "formik";
 import {TextField} from "@material-ui/core";
-import {IInputField} from "./MyForm2/MyForm2";
+import {IInputField} from "./MyForm2/MyFormInterfaces";
 
 
 export const PasswordInput: React.FC<IInputField>  = (props) => {

@@ -44,10 +44,11 @@ export default class PresentationalComponent extends React.Component<{}> {
                                 <TextInput
                                     name={"firstName"}
                                     placeholder={"Firstname"}
+                                    variant={"outlined"}
                                 />
                             </div>
 
-                            <TextInput name={"lastName"} placeholder={"Lastname"}/>
+                            <TextInput name={"lastName"} placeholder={"Lastname"} />
 
                             <EmailInput name={"email"} placeholder={"Email"}/>
                             <PasswordInput name={"password"} placeholder={"Password"}/>
@@ -62,9 +63,7 @@ export default class PresentationalComponent extends React.Component<{}> {
                             ]}
                             />
 
-                            {/*<SubmitButton>Login {values.iagree === true ? "ok": "-"}</SubmitButton>*/}
-
-                            <SubmitButton>Login {values.iagree === true ? "ok": "-"}</SubmitButton>
+                            <SubmitButton disabled={values.iagree}>Submit</SubmitButton>
 
                         </Form>
                     )}
