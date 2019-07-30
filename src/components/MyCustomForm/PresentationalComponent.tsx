@@ -1,10 +1,9 @@
 import * as React from "react";
-//import TestForm from "../TestForm";
-import {TextInput} from "../TextInput";
-import {EmailInput} from "../EmailInput";
-import {PasswordInput} from "../PasswordInput";
-import {CheckBoxInput} from "../CheckBoxInput";
-import {SelectInput} from "../SelectInput";
+import {TextInput} from "./TextInput";
+import {EmailInput} from "./EmailInput";
+import {PasswordInput} from "./PasswordInput";
+import {CheckBoxInput} from "./CheckBoxInput";
+import {SelectInput} from "./SelectInput";
 import SubmitButton from "./SubmitButton";
 import * as Yup from "yup";
 import {Form, Formik} from "formik";
@@ -12,10 +11,19 @@ import {Form, Formik} from "formik";
 
 export default class PresentationalComponent extends React.Component<{}> {
 
+    /**
+     * Sva polja koja se validiraju obvezna su imati initialValues
+     * u suprotnom Formik ih neće pročitati kao values
+     *
+     * Ako se ne validiraju (u validationSchema) ne treba im initialValues
+     *
+     * */
+
     initialValues = {
-        firstName: 'aaa',
+        firstName: '',
         lastName: '',
         email: '',
+        password:'',
         iagree:false
     };
 
@@ -33,18 +41,18 @@ export default class PresentationalComponent extends React.Component<{}> {
                         Yup.object().shape({
                             firstName: Yup.string().required('Firstname is required'),
                             lastName: Yup.string().required('Lastname is required'),
-                            email: Yup.string().email('Enter valid email').required('Email is required')
+                            email: Yup.string().email('Enter valid email').required('Email is required'),
+                            password: Yup.string().required('Password is required').min(6, 'Password must be of minimum 6 characters length'),
 
                         })
                     }
                 >
-                    {({values}) => (
+                    {(props) => (
                         <Form>
                             <div>
                                 <TextInput
                                     name={"firstName"}
                                     placeholder={"Firstname"}
-                                    variant={"outlined"}
                                 />
                             </div>
 
@@ -52,7 +60,7 @@ export default class PresentationalComponent extends React.Component<{}> {
 
                             <EmailInput name={"email"} placeholder={"Email"}/>
                             <PasswordInput name={"password"} placeholder={"Password"}/>
-                            <CheckBoxInput name={"iagree"} placeholder={"I Agree"} value={"1"}/>
+                            <CheckBoxInput name={"iagree"} placeholder={"I Agree"}/>
                             <SelectInput name={"gender"} placeholder={"Gender"} options={[
                                 {
                                     value: 'male', label: 'Male'
@@ -63,7 +71,7 @@ export default class PresentationalComponent extends React.Component<{}> {
                             ]}
                             />
 
-                            <SubmitButton disabled={values.iagree}>Submit</SubmitButton>
+                            <SubmitButton disabled={props.values.iagree} isSubmitting={props.isSubmitting}>Submit</SubmitButton>
 
                         </Form>
                     )}

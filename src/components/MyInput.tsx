@@ -1,6 +1,6 @@
 import * as React from "react";
 import {ErrorMessage, Field} from "formik";
-import {MyCustomField} from "../../Formik/MyCustomField";
+import {MyCustomField} from "../Formik/MyCustomField";
 
 interface IMyInput {
     name: string;
@@ -12,7 +12,6 @@ interface IMyInput {
 }
 
 export const MyInput: React.FC<IMyInput>  = (props) => {
-    // console.log(props)
     return (
         <>
             <Field

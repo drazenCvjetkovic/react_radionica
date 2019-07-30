@@ -5,7 +5,7 @@ import Home from'./Home';
 import Header from "./Header";
 import ParentFormComponent from "./Formik/ParentFormComponent";
 import {List as MyList} from './Formik/List'
-import PresentationalComponent from "./components/MyForm2/PresentationalComponent";
+import PresentationalComponent from "./components/MyCustomForm/PresentationalComponent";
 
 
 const App: React.FC = () => {
@@ -18,7 +18,7 @@ const App: React.FC = () => {
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/formik" component={ParentFormComponent}/>
-                    <Route path="/formik2" component = {PresentationalComponent}/>
+                    <Route path="/my_custom_form" component = {PresentationalComponent}/>
                     <Route path="/list" component = {MyList}/>
 
                 </Switch>

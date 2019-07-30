@@ -38,10 +38,10 @@ function Header() {
                         variant={'h6'}
                     >FORMIK</Typography>
                 </NavLink>
-                <NavLink to={"/formik2"} className={classes.navbarLink}>
+                <NavLink to={"/my_custom_form"} className={classes.navbarLink}>
                     <Typography
                         variant={'h6'}
-                    >FORMIK2</Typography></NavLink>
+                    >MY CUSTOM FORM</Typography></NavLink>
                 <NavLink to={"/list"} className={classes.navbarLink}>
                     <Typography
                         variant={'h6'}

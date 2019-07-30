@@ -2,7 +2,7 @@ import * as React from "react";
 import {ErrorMessage, Field, FieldProps} from "formik";
 import {FormControl} from "@material-ui/core";
 import NativeSelect from "@material-ui/core/NativeSelect";
-import {IInputField} from "./MyForm2/MyFormInterfaces";
+import {IInputField} from "./MyFormInterfaces";
 
 
 

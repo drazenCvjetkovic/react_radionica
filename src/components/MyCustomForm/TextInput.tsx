@@ -1,28 +1,27 @@
 import * as React from "react";
 import {ErrorMessage, Field, FieldProps} from "formik";
 import {createStyles, makeStyles, TextField} from "@material-ui/core";
-import {IInputField} from "./MyForm2/MyFormInterfaces";
+import {IInputField} from "./MyFormInterfaces";
+
+
+export interface ITextInput extends IInputField{
+    margin?: 'dense' | 'normal';
+}
 
 const getStyles = makeStyles(() =>
     createStyles({
-        inputField: {
-            marginTop: 30,
-            width: "-webkit-fill-available",
-            marginLeft: 20,
-            marginRight: 20
-        },
+
         error: {
             color: "red"
         }
     })
 );
 
-export const TextInput = (props:IInputField) => {
+export const TextInput = (props:ITextInput) => {
     const classes = getStyles();
 
     return (
         <>
-
             <Field name={props.name}
 
                 render={({field, form}:FieldProps) => {
@@ -35,6 +34,8 @@ export const TextInput = (props:IInputField) => {
                         type={'text'}
                         error={form.touched[field.name] && !!form.errors[field.name]}
                         variant={"outlined"}
+                        margin={props.margin ? props.margin : 'none'}
+
                     />)
                         :
                     (<TextField
@@ -43,14 +44,12 @@ export const TextInput = (props:IInputField) => {
                         onChange={field.onChange}
                         type={'text'}
                         variant={"standard"}
-
+                        margin={props.margin ? props.margin : 'none'}
                         error={form.touched[field.name] && !!form.errors[field.name]}
                     />)
-
                 }
                 }
             />
-
 
             <div className={classes.error}>
                 <ErrorMessage

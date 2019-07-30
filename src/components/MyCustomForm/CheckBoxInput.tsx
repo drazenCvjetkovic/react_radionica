@@ -2,7 +2,7 @@ import * as React from "react";
 import {Field, FieldProps} from "formik";
 import {Switch} from "@material-ui/core";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import {IInputField} from "./MyForm2/MyFormInterfaces";
+import {IInputField} from "./MyFormInterfaces";
 
 
 export interface  ICheckBoxInput extends IInputField{
