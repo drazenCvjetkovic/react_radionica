@@ -1,6 +1,6 @@
 import * as React from "react";
 import {ErrorMessage, Field} from "formik";
-import {MyCustomField} from "../Formik/MyCustomField";
+import {MyCustomField} from "./MyForm/MyCustomField";
 
 interface IMyInput {
     name: string;

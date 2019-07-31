@@ -3,9 +3,8 @@ import {Button, Card, createStyles, makeStyles,} from "@material-ui/core";
 import {Form, Formik, Field, ErrorMessage} from "formik";
 import * as Yup from "yup";
 import '../../style/Form.css';
-// import {MyCustomField} from "../../MyCustomField";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import {MyCustomField} from "../../Formik/MyCustomField";
+import {MyCustomField} from "./MyCustomField";
 
 interface IValues {
     firstName: string;
@@ -15,6 +14,7 @@ interface IValues {
     gender: string;
     multiline: string;
     checkbox: boolean;
+
 }
 
 interface IProps {
@@ -87,8 +87,6 @@ export const MyForm: React.FC<IProps> = ({onSubmit }) => {//uz on submit dobiti 
                 <div className={classes.card}>
                     <Card className={classes.card}>
                         <Form>
-                            {console.log('PROPS Form1:',props.values)}
-
 
                                 <Field
                                     name={'firstName'}

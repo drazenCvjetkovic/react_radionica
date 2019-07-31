@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { Formik, Field, FormikErrors,Form } from "formik";
-import {MyCustomField} from "./Formik/MyCustomField";
+import {MyCustomField} from "./components/MyForm/MyCustomField";
 
 interface FormValues {
     firstName: string;
